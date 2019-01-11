@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
-
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'menu-logo',
-  templateUrl: './logo.component.html',
-  styleUrls: ['./logo.component.css']
+  selector: 'top-bar',
+  templateUrl: './top-bar.component.html',
+  styleUrls: ['./top-bar.component.css']
 })
-export class LogoComponent implements OnInit {
+export class TopBarComponent implements OnInit {
 
   constructor() { }
 

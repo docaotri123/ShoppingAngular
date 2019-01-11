@@ -1,0 +1,20 @@
+.top-bar{
+    height: 50px;
+    background: #292929;
+}
+
+.top-bar-phone{
+    float: right;
+    padding-top: 10px;
+    color: #ccc;
+}
+
+.top-bar-email{
+    padding-left: 5%;
+    padding-top: 10px;
+    color: #ccc;
+}
+
+.top-bar-infor a{
+    color: #fff !important;
+}

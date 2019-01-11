@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { setTimeout  } from 'timers';
 @Component({
   // tslint:disable-next-line:component-selector
   selector: 'menu-cart',

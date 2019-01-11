@@ -9,6 +9,7 @@ import { HomeComponent } from './home.component';
 import { LogoComponent } from './menu/logo/logo.component';
 import { SearchComponent } from './menu/search/search.component';
 import { CartComponent } from './menu/cart/cart.component';
+import { TopBarComponent } from './top-bar/top-bar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { CartComponent } from './menu/cart/cart.component';
     HomeComponent,
     LogoComponent,
     SearchComponent,
-    CartComponent
+    CartComponent,
+    TopBarComponent
   ],
   imports: [
     CommonModule,
